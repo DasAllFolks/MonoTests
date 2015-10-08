@@ -1,12 +1,10 @@
-﻿using System;
-
-namespace Hello
+﻿namespace Hello
 {
-	public class MyClass
+	public static class Hello
 	{
-		public MyClass ()
+		public static string SayHello()
 		{
+			return "Hello World!";
 		}
 	}
 }
-

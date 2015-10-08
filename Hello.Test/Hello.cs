@@ -1,15 +1,15 @@
-﻿using NUnit.Framework;
-using System;
+﻿using Hello;
+using NUnit.Framework;
 
-namespace Hello.Test
+namespace Hello.Tests
 {
 	[TestFixture ()]
-	public class Test
+	public class SayHelloTest
 	{
 		[Test ()]
-		public void TestCase ()
+		public void SayHello ()
 		{
+			Assert.AreEqual("Hello World!", Hello.SayHello ());
 		}
 	}
 }
-
