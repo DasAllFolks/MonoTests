@@ -40,4 +40,10 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Hello\Hello.csproj">
+      <Project>{7D7E9411-54DD-46FA-AEF3-1DCC2C885939}</Project>
+      <Name>Hello</Name>
+    </ProjectReference>
+  </ItemGroup>
 </Project>
